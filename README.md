@@ -52,9 +52,6 @@ URL: http://localhost:5000/notifications
 ```
 ### Request Body
 ```
-json
-Copy
-Edit
 {
   "type": "gmail",           // Options: "gmail", "sms", "in-app"
   "title": "Hello!",
@@ -80,7 +77,6 @@ Replace :id with the UUID returned from the POST request.
 
 ### Response 
 ```
-json
 [
   {
     "title": "Hello!",
